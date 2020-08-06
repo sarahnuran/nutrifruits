@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7b650fc1.chunk.css",
+    "main.js": "/static/js/main.2273a10e.chunk.js",
+    "main.js.map": "/static/js/main.2273a10e.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.25a68464.js",
+    "runtime-main.js.map": "/static/js/runtime-main.25a68464.js.map",
+    "static/js/2.6007750e.chunk.js": "/static/js/2.6007750e.chunk.js",
+    "static/js/2.6007750e.chunk.js.map": "/static/js/2.6007750e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.a221694d8132e1a8c5e708704e2f0440.js": "/precache-manifest.a221694d8132e1a8c5e708704e2f0440.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.7b650fc1.chunk.css.map": "/static/css/main.7b650fc1.chunk.css.map",
+    "static/js/2.6007750e.chunk.js.LICENSE.txt": "/static/js/2.6007750e.chunk.js.LICENSE.txt",
+    "static/media/gifpomme.gif": "/static/media/gifpomme.4caa589e.gif",
+    "static/media/logo-nutrifruits.png": "/static/media/logo-nutrifruits.d46606d7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.25a68464.js",
+    "static/js/2.6007750e.chunk.js",
+    "static/css/main.7b650fc1.chunk.css",
+    "static/js/main.2273a10e.chunk.js"
+  ]
+}
