@@ -1,6 +1,7 @@
 const express = require("express");
 const socketio = require("socket.io");
 const http = require("http");
+const path = require("path");
 
 const { addUser, removeUser, getUser, getUsersInRoom } = require("./users");
 
@@ -12,6 +13,12 @@ const users = require("./users");
 const app = express();
 const server = http.createServer(app);
 const io = socketio(server);
+
+app.use(express.static(path.join(__dirname, "client/build")));
+app.get("/*", (req, res) => {
+  res.sendFile(path.resolve(__dirname, "client/build", "index.html"));
+  console.log("port" + PORT + "en écoute");
+});
 
 // io.on('connection', (socket) => {
 
