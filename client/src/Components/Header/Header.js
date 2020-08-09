@@ -12,28 +12,15 @@ class Header extends React.Component {
             <p className="welcome">
               Welcome <br />
               to
-              {/* <span>W</span>
-            <span>E</span>
-            <span>L</span>
-            <span>C</span>
-            <span>O</span>
-            <span>M</span>
-            <span>E</span>
-            <br /> */}
             </p>
-            {/* <div className="squareOne"></div> */}
             <img alt="logo-nutrifruts" src={logo} />
           </div>
-
           <div className="gif">
             <img alt="logo-nutrifruts" src={facts} />
-
             <p className="info-site">
               Our site provides data on the nutritional value of fruits
             </p>
           </div>
-
-          {/* <div className="squareTwo"></div> */}
         </div>
       </>
     );

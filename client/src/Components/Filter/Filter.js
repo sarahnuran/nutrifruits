@@ -128,7 +128,6 @@ class Filter extends React.Component {
           placeholder="Search your fruit"
           name="searchbar"
           onChange={this.inputValue}
-          // value={this.state.value}
         />
 
         <Cards fruits={this.state.fruits} value={this.state.value} />

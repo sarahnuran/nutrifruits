@@ -10,10 +10,13 @@ body {
   width: 100%;
 }
 
-.all {
+.home {
   width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Salsa", cursive;
 }
 
 .boxChat {
@@ -32,16 +35,7 @@ body {
   display: none;
 }
 
-.home {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  font-family: "Salsa", cursive;
-}
-
-.buttonChat {
+.buttonChat img {
   background-color: aquamarine;
   position: fixed;
   right: 2em;
@@ -49,17 +43,3 @@ body {
   width: 3em;
   height: 3em;
 }
-
-/* .buttonChat img{
-  width: 100%;
-  height: 100%;
-} */
-
-/* .boxChat{
-  background-color: blue;
-  position: fixed;
-  right: 2.3em;
-  bottom: 2.3em;
-  height: 19em;
-  width: 19em;
-} */

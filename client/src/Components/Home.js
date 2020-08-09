@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Filter from "./Filter/Filter";
 import Header from "./Header/Header";
 import Join from "./Join/Join";
-import Chat from "./Chat";
+import Chat from "./Chat/Chat";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import { withRouter } from "react-router-dom";
 
@@ -35,8 +35,9 @@ class Home extends Component {
       <div className="home">
         <div className="buttonChat">
           <img
+            alt="pomme-gif"
             onClick={this.displayChat}
-            classname="imgChat"
+            className="imgChat"
             src={require("../img/gifpomme.gif")}
           />
         </div>

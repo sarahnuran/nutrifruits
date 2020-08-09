@@ -18,7 +18,7 @@ class Footer extends React.Component {
   render() {
     const members = this.state.members.map((member) => {
       return (
-        <li className="link-list">
+        <li className="link-list" key={member.name}>
           <a href={member.github}>
             <i className="fab fa-github" aria-hidden="true"></i>
             <span> -{member.name}</span>

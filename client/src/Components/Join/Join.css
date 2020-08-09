@@ -14,18 +14,11 @@ body {
 }
 
 .joinOuterContainer {
-  /* display: flex;
-  justify-content: center;
-  text-align: center;
-  height: 100vh;
-  align-items: center;
-  background-color: #1a1a1d; */
-
   display: flex;
   justify-content: center;
   align-items: center;
   height: 25em;
-  background-color: #1A1A1D;
+  background-color: #1a1a1d;
   position: fixed;
   right: 3.3em;
   bottom: 3.3em;
@@ -41,9 +34,6 @@ body {
   border-radius: 0;
   padding: 15px 20px;
   width: 50%;
-
-
-
   position: absolute;
   left: 4.5em;
   top: 14.7em;
@@ -71,6 +61,8 @@ body {
 .mt-20 {
   margin-top: 20px;
 }
+
+/* -----------------------RESPONSIVE-------------------------------- */
 
 @media (min-width: 320px) and (max-width: 480px) {
   .joinOuterContainer {

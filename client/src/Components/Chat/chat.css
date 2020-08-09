@@ -8,7 +8,6 @@
   right: 3.3em;
   bottom: 3.3em;
   width: 20em;
-  /* display: hidden; */
 }
 
 .container {
@@ -17,14 +16,13 @@
   justify-content: space-between;
   background: #ffffff;
   border-radius: 8px;
-  /* height: 60%;
-  width: 35%; */
-
   height: 50%;
   width: 100%;
   position: absolute;
   bottom: 0;
 }
+
+/* -----------------------RESPONSIVE-------------------------------- */
 
 @media (min-width: 320px) and (max-width: 480px) {
   .outerContainer {
