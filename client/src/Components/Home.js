@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Filter from "./Filter/Filter";
 import Header from "./Header/Header";
-import Footer from "./Footer/Footer";
 import Join from "./Join/Join";
 import Chat from "./Chat";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
@@ -52,7 +51,6 @@ class Home extends Component {
         </div>
         <Header />
         <Filter />
-        <Footer />
       </div>
     );
   }
