@@ -1,6 +1,6 @@
 import React from "react";
 import "../Header/header.css";
-import logo from "../../img/logonutri.png";
+import logo from "../../img/logo_nutrifruits.png";
 import facts from "../../img/facts.gif";
 
 class Header extends React.Component {
